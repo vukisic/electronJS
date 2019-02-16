@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id="title">Task List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div id="titleShown">
+            </div>
+            <div id="buttons">
+                <div id="empty">
+                </div>
+                <div id="close">
+                    <span>&times;</span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" id="main">
+        <button id="addBtn" class="btn btn-success">Add</button>
+        <button id="clearBtn" class="btn btn-danger">Clear</button>
+    </div>
+    <div class="container" id="taskList">
+        <h4>To-Do Tasks :</h4>
+        <ul id="tasks" class="list-group"></ul>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="init.js"></script>
+</html>

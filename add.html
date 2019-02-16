@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id="title">Add New Item</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/add.css">
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <div id="titleShown">
+            </div>
+            <div id="buttons">
+                <div id="empty">
+                </div>
+                <div id="close">
+                    <span>&times;</span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container" id="main">
+        <form class="col-12">
+            <div class="form-group">
+                <label for="newTask">Task</label>
+                <input id="item" class="form-control mr-auto" type="text" placeholder="Something..."/>
+                <div class="row">
+                        <form class="col-md-4 text-center"></form>
+                        <form class="col-md-4 text-center">
+                                <div>
+                                    <button id="subBtn" class="btn btn-success btn-lg btn-block submitBtn" type="submit">Submit!</button>
+                                </div>
+                        </form>
+                        <form class="col-md-4 text-center"></form>
+                    </div>
+            </div>
+        </form>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="add.js"></script>
+</html>
